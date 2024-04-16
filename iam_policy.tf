@@ -13,7 +13,7 @@ resource "aws_iam_policy" "my_policy" {
           "ec2:CreateVpc"
         ]
         Effect   = "Allow"
-        Resource = "*"
+        Resource = "EC2"
       },
     ]
   })
