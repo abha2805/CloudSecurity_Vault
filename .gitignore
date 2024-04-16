@@ -1,0 +1,64 @@
+# Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+crash.log
+
+# Exclude all .tfvars files, which might contain sensitive data, such as
+# password, private keys, and other secrets. These should not be part of
+# your version-controlled source code.
+*.tfvars
+*.tfvars.json
+
+# Ignore override files as they are usually used to override resources locally and should
+# not be shared with others
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignore CLI configuration files
+.terraformrc
+terraform.rc
+
+# Ignore any .log files that may be generated during Terraform operations
+*.log
+
+# Ignore any files related to Terraform workspace, if you are not using workspace
+# terraform.tfstate.d/
+
+# Ignore .env files as they may contain sensitive environment variables
+.env
+.env.*
+
+# Ignore any .backup files that may be generated during Terraform operations
+*.backup
+
+# Ignore directories created by Terraform providers for storing plugins
+**/.terraform/plugins
+**/.terraform/providers
+
+# Ignore any files related to local backend
+terraform.tfstate.d/
+
+# Exclude any .git directory
+**/.git/*
+
+# Exclude any archive files such as zip or tar.gz that might be used for lambda functions
+*.zip
+*.tar.gz
+
+# Ignore any IDE specific files or directories
+.vscode/
+.idea/
+*.iml
+*.swp
+apt
+sudo
+update
+.DS_Store
+
